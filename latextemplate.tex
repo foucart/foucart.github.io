@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% This is the template to use for SAT with LATEX %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% INSTRUCTIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% This file inputs sat.cls, so that file from the SAT website
+% http://www.math.technion.ac.il/sat/authors.html
+% should also be included in the same directory where this file is run from
+
+% Please complete the "OPTIONS", "DATA", "YOUR MACROS", "YOUR MATHEMATICS" 
+% sections below, and leave the rest unchanged
+
+\documentclass[11pt]{sat}
+
+\newif\ifsattoc\sattoctrue
+\newread\testfl\immediate\openin\testfl=\jobname.toc
+    \ifeof\testfl\sattocfalse\fi\closein\testfl
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% OPTIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% Erase % from the beginning of the following lines if you want to set the option
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Subsections numbered: 
+%\setcounter{secnumdepth}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% Formula numbers in the form (x.y) (numbered within sections), 
+%%%% but then you must use \sect instead of \section:
+%\newcommand{\sect}[1]{\section{#1}\setcounter{equation}{0}}
+%\renewcommand{\theequation}{\thesection.\arabic{equation}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%  PLEASE FILL IN THESE DATA  %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% Please supply the following data in place of xxx
+
+\title{xxx}
+\def\shorttitle{xxx}
+
+\author{xxx}
+\def\shortauthor{xxx}
+
+\def\versiondate{xxx}
+
+\def\abstracttext{xxx}
+
+\def\MSCnumbers{xxx} % see http://www.ams.org/msc/
+
+\def\keywords{} % Insert keywords and/or phrases, if you like
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% INSERT YOUR MACROS HERE %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% END OF YOUR MACROS  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% FOR EDITORS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%% DO NOT MODIFY THESE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%% Initializing (to be done by the editors)
+\def\startpagenumber{1}
+\def\volumenumber{6} % = current year - 2011
+\def\year{2011}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\dword#1{{\bf #1}} \def\eword#1{{\it #1}}
+\def\dd{\,{\rm d}}  % for integration (making them mathop places them less well)
+\def\ee{{\rm e}}  % for the base of the natural log
+\def\ii{{\rm i}}  % for the imaginary unit
+\def\floor#1{\lfloor#1\rfloor}
+\def\norm#1{\Vert#1\Vert}
+\def\inpro#1{\langle#1\rangle}
+
+\setcounter{page}{\startpagenumber}
+\pagestyle{myheadings}
+\newcommand{\beginddoc}{
+\maketitle
+\begin{abstract}
+\abstracttext
+\vskip1pt MSC: \MSCnumbers
+\ifx\keywords\empty\else\vskip1pt Keywords: \keywords\fi
+\end{abstract}
+\insert\footins{\scriptsize
+\medskip
+\baselineskip 8pt
+\leftline{Surveys in Approximation Theory}
+\leftline{Volume \volumenumber, \year.
+pp.~\thepage--\pageref{endpage}.}
+\leftline{\copyright\ \year\ Surveys in Approximation Theory.}
+\leftline{ISSN 1555-578X}
+\leftline{All rights of reproduction in any form reserved.}
+\smallskip
+\par\allowbreak}
+\ifsattoc\else\tableofcontents\fi}
+\renewcommand\rightmark{\ifodd\thepage{\it \hfill\shorttitle\hfill}\else {\it \hfill\shortauthor\hfill}\fi}
+\markboth{{\it \shortauthor}}{{\it \shorttitle}}
+\markright{{\it \shorttitle}}
+\def\endddoc{\label{endpage}\end{document}}
+\date{{\small \versiondate}}
+\setlength\oddsidemargin{0pc}
+\setlength\evensidemargin{0pc}
+\setlength\topmargin{0in}
+\setlength\textwidth{6.5in}
+\setlength\textheight{8.6in}
+\RequirePackage{hyperref}
+\begin{document}
+\beginddoc
+\ifsattoc
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  toc material
+\def\toczer{0}\def\tochalf{.5}\def\tocone{1}
+\def\tocindent{0}
+\def\ection{section}\def\ubsection{subsection}
+\def\numberline#1{\hskip\tocindent truecm{} #1\hskip1em}
+\newread\testfl
+\def\inputifthere#1{\immediate\openin\testfl=#1
+    \ifeof\testfl\message{(#1 does not yet exist)}
+    \else\input#1\fi\closein\testfl}
+\countdef\counter=255
+\def\diamondleaders{\global\advance\counter by 1
+  \ifodd\counter \kern-10pt \fi
+  \leaders\hbox to 15pt{\ifodd\counter \kern13pt \else\kern3pt \fi
+  \hss.\hss}\hfill}
+\newdimen\lextent
+\newtoks\writestuff
+\medskip
+\begingroup
+\small
+\def\contentsline#1#2#3#4{
+\def\argu{#1}
+\ifx\argu\ection\let\tocindent\toczer\else
+\ifx\argu\ubsection\let\tocindent\tochalf\else\let\tocindent\tocone\fi\fi
+\setbox1=\hbox{#2}\ifnum\wd1>\lextent\lextent\wd1\fi}
+\lextent0pt\inputifthere{\jobname.toc}\advance\lextent by 2em\relax
+\def\contentsline#1#2#3#4{
+\def\argu{#1}
+\ifx\argu\ection\let\tocindent\toczer\else
+\ifx\argu\ubsection\let\tocindent\tochalf\else\let\tocindent\tocone\fi\fi
+\writestuff={#2}
+\centerline{\hbox to \lextent{\rm\the\writestuff%
+\ifx\empty#3\else\diamondleaders{}
+\hfil\hbox to 2 em\fi{\hss#3}}}}
+\inputifthere{\jobname.toc}\endgroup
+\immediate\openout\testfl=\jobname.toc % to empty \jobname.toc in order to
+\immediate\closeout\testfl             % get \tableofcontents to initiate
+\renewcommand{\contentsname}{}         % regeneration the toc file without
+\tableofcontents\newpage               % printing a ToC.
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% YOUR MATHEMATICS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% INSERT YOUR ARTICLE HERE USING %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%% STANDARD LATEX COMMANDS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%  OUR RECOMMENDATIONS AND REQUESTS %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% (a) Number all formal statements with one number system, i.e., avoid
+%     Corollary 9 following Theorem 15.
+% (b) Appy the British way of using \text for the d in integration, and
+%     for the numbers e and i (the corresponding macros, \dd, \ee, \ii,
+%     are provided in the present file).
+% (c) Use \it for emphasis and \bf for terms being defined (the corre-
+%     sponding macros, \eword{} and \dword{}, are in the present file).
+% (d) Use \sl rather than \it for the text in formal statements, like
+%     theorems, corollaries, etc.
+% (e) Use \ldots only between commas; for all other ellipses use \cdots.
+% (f) Consistently use := or =: for all equalities that hold by definition.
+% (g) Use \floor{x} rather than [x] for the greatest integer \le x (since
+%     [...] has already so many other uses).
+% (h) Make sure that the lines in your latex are at most 72 characters long
+%     (this makes it easy to highlight any changes we might have to make
+%     while handling your paper).
+% (i) In the references, make sure that first and last page numbers are 
+%     separated by -- (not just - )
+% (j) Prefer that \{ ...\} be used for sets only.
+% (k) Prefer that set notation use : rather than \mid, i.e., \{ x : P(x)\} 
+%      rather than \{x | P(x)\} (since | is already used for absolute value). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%******************************* ADDRESS *************************
+
+%  Beginning of addresses
+
+{
+
+\bigskip
+% first author's name, affiliation, and address, including email and web page
+\hskip1.4 em\vbox{\noindent your name\\your department\\address\\
+ {\tt your email }\\
+{\tt your homepage }}
+
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\endddoc
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\updated{15jun11}

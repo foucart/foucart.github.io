@@ -1,0 +1,430 @@
+\message{: version 05jun04}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   journal.tex 
+% copyright 1995-2004 Carl de Boor and Larry Schumaker
+% contains
+% (1) standard journal abbreviations;
+% (2) standard macros needed in some references;
+% (3) macros needed for decoding the present reference formats, for use in
+%     the (customizable) macros  \form[A-Z]  specified in  refmac.tex ;
+% (4) a detailed description of the format in which the references appear
+%     in the files  [A-Z] , to help users in preparing more entries for 
+%     these files.
+% (5) a record of all changes made to this file.
+%
+% Companion files:  proceed.tex  refmac.tex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% (1) list of common journal abbreviations:
+\def\AAM{\AiAM}
+\def\ApA{Appl.\ Anal.}
+\def\ACHA{Appl.\ Comput.\ Harmonic Anal.}
+\def\ACJ{Australian Comput.\ J.}
+\def\ACMTMS{ACM Trans.\ Math.\ Software}
+\def\ACMTG{ACM Trans.\ on Graphics}
+\def\AC{Adv.\ Comput.}
+\def\AeM{Aequationes Math.}
+\def\AJM{Amer.\ J. Math.}
+\def\AMASH{Acta Math.\ Acad.\ Sci.\ Hungar.}
+\def\AMC{Appl.\ Math.\ Comp.}
+\def\AMM{Appl.\ Math.\ Mech.}
+\def\AMMo{Amer.\ Math.\ Monthly}
+\def\AMS{Acta Math.\ Sinica}
+\def\AM{Appl.\ Math.}%Applications of Mathematics, formerly Aplikace Matematiky
+\def\AN{Acta Numerica}
+\def\AoNM{Annals of Numerical Mathematics}
+\def\ANM{Appl.\ Numer.\ Math.}
+\def\ANTA{Anal.\ Num\'er.\ Th\'eor.\ Approx.}
+\def\ATA{Approx.\ Theory Appl.}
+\def\AiM{Advances in Math.}
+\def\AiAM{Advances in Appl.\ Math.}
+\def\AiCM{Advances in Comp.\ Math.}
+\def\AfM{Arkiv for Matematik}
+\def\AUPOFRNM{Acta Univ.\ Palack.\ Olomuc.\ Fac.\ Rerum Natur.\ Math.}
+\def\BAMS{Bull.\ Amer.\ Math.\ Soc.}
+\def\BIT{BIT}
+\def\C{Computing}
+\def\CACM{Commun.\ ACM}
+\def\CAD{Computer-Aided Design}
+\def\CAGD{Comput.\ Aided Geom.\ Design}
+\def\CA{Constr.\ Approx.}
+\def\CGA{Comp.\ Graphics and Applics.}
+\def\CGIP{Comp.\ Graphics and Image Proc.}
+\def\CJM{Canad.\ J. Math.}
+\def\CJ{Computer J.}
+\def\CM{Contemp.\ Math.}
+\def\CMA{Comput.\ Math.\ Appl.}
+\def\CMB{Canad.\ Math.\ Bull.}
+\def\CMP{Comm.\ Math.\ Phys.}
+\def\CMSCP{Canad.\ Math.\ Soc.\ Conf.\ Proceedings}
+\def\CPAM{Comm.\ Pure Appl.\ Math.}
+\def\CRABS{C. R. Acad.\ Bulgare Sci.}
+\def\CRASP{C. R. Acad.\ Sci.\ Paris}
+\def\CVGIP{Computer Vision, Graphics, and Image Processing}
+\def\DAN{Doklady Akad.\ Nauk SSSR}
+\def\DCG{Discr.\ Comput.\ Geometry}
+\def\DMJ{Duke Math.\ J.}
+\def\EJA{East J. Approx.}
+\def\FCM{Found.\ Comput.\ Math.}
+\def\IBMJRD{IBM J. Res.\ Dev.}
+\def\IBMJR{IBM J. Res.}
+\def\ICGA{IEEE Comp.\ Graph.\ Appl.}
+\def\IJM{Illinois J. Math.}
+\def\IJNME{Intern.\ J. Numer.\ Methods Eng.}
+\def\IMAJNA{IMA J. Numer.\ Anal.}
+\def\IPL{Inform.\ Process.\ Lett.}
+\def\ITBE{IEEE Trans.\ Biomedical Engrg.}
+\def\ITC{IEEE Trans.\ Computers}
+\def\ITMI{IEEE Trans.\ Medical Imaging}
+\def\ITPAMI{IEEE Trans.\ Pattern Anal.\ and Machine Intelligence}
+\def\ITPASSP{IEEE Trans.\ Acoustic, Speech, and Signal Processing}
+\def\ITSE{IEEE Trans.\ Software Engrg.}
+\def\IUMJ{Indiana Univ.\ Math.\ J.}
+\def\IsJM{Israel J. Math.}
+\def\JACM{J. Assoc.\ Comput.\ Mach.}
+\def\JAMP{J. Appl.\ Math.\ Phys.}
+\def\JAMSA{J. Austral.\ Math.\ Soc.\ Ser.\ A}
+\def\JAMSB{J. Austral.\ Math.\ Soc.\ Ser.\ B}
+\def\JAM{J. Analyse Math.}
+\def\JATA{\ATA}
+\def\JAT{J. Approx.\ Theory}
+\def\JCAM{J. Comput.\ Appl.\ Math.}
+\def\JCM{J. Comput.\ Math.}
+\def\JCP{J. Comput.\ Phys.}
+\def\JFA{J. Funct.\ Anal.}
+\def\JFAA{J. Fourier Anal.\ Appl.}
+\def\JIMA{J. Inst.\ Math.\ Applics.}
+\def\JLMS{J. London Math.\ Soc.}
+\def\JMAA{J. Math.\ Anal.\ Appl.} %Journal of Mathematical Analysis and Applications
+\def\JMM{J. Math.\ Mech.}
+\def\JMP{J. Math.\ Phys.}
+\def\JMPA{J. Math.\ Pures Applic.}
+\def\JNMCA{J. Numer.\ Methods Comput.\ Appl.}
+\def\JRAM{J. reine angew.\ Math.}
+\def\JSC{J. Sci.\ Comput.}
+\def\JSIAM{J. SIAM}
+\def\LAA{Linear Algebra Appl.}
+\def\LMJ{London Math.\ J.}
+\def\MA{Math.\ Ann.}
+\def\MAA{Math.\ Anal.\ Appl.}
+\def\MC{Math.\ Comp.}
+\def\MCAD{Math.\ CAD}
+\def\MM{Manuscripta Math.}
+\def\MMNA{Math.\ Model.\ Numer.\ Anal.}
+\def\MN{Math.\ Notes}
+\def\MNa{Math.\ Nachrichten}
+\def\MS{Mat.\ Sb.}
+\def\MUSSRS{Math.\ USSR-Sb.}
+\def\MZ{Math.\ Z.}
+\def\MaZ{Mat.\ Zametki}
+\def\NA{Numer.\ Algorithms}
+\def\NFAO{Numer.\  Func.\ Anal.\ Optim.}
+\def\NM{Numer.\ Math.}
+\def\PAMS{Proc.\ Amer.\ Math.\ Soc.}
+\def\PEMS{Proc.\ Edinburgh Math.\ Soc.}
+\def\PIEEE{Proc.\ IEEE}
+\def\PLMS{Proc.\ London Math.\ Soc.}
+\def\PJM{Pacific J. Math.}
+\def\PNAS{Proc.\ Nat.\ Acad.\ Sci.}
+\def\PR{Pattern Recognition}
+\def\PRSEA{Proc.\ Roy.\ Soc.\ Edinburgh Sect.\ A}
+\def\RAIROAN{Rev.\ Fran\c caise Automat.\ Informat.\ Rech.\ Op\'er., Anal.\ Numer.}
+\def\RMA{Rev.\ Math.\ Apl.}
+\def\RAN{\RAIROAN}
+\def\RM{Resultate Math.}
+\def\RMJM{Rocky Mountain J. Math.}
+\def\SAM{Studies in Appl.\ Math.}
+\def\SJAM{SIAM J. Appl.\ Math.}
+\def\SJADM{SIAM J. Alg.\ Disc.\ Methods}
+\def\SJDM{SIAM J. Discrete Math.}
+\def\SJC{SIAM J. Comput.}
+\def\SJCO{SIAM J. Control Optim.}
+\def\SJMA{SIAM J. Math.\ Anal.}
+\def\SJMAA{SIAM J. Matrix\ Anal.\ Appl.}
+\def\SJNA{SIAM J. Numer.\ Anal.}
+\def\SJSC{SIAM J. Sci. Comput.}
+\def\SJSSC{SIAM J. Sci.\ Statist.\ Comput.}
+\def\SM{Studia Math.}
+\def\SMD{Soviet Math.\ Dokl.}
+\def\SR{SIAM Review}
+\def\SSMH{Stud.\ Sci.\ Math.\ Hung.}
+\def\TAMS{Trans.\ Amer.\ Math.\ Soc.}
+\def\TOG{\ACMTG}
+\def\ZAMM{Z. Angew.\ Math.\ Mech.}
+\def\ZAMP{Z. Angew.\ Math.\ Phys.}
+\def\ZMAM{ZMAM}
+\def\ZMP{Z. Math.\ Phys.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% (2) macros needed in particular references:
+\def\RR{\mathop{{\rm I}\kern-.16em{\rm R}}\nolimits}
+\def\CC{\hbox{\rm C\kern -.58em {\raise .54ex \hbox{$\scriptscriptstyle |$}}
+  \kern-.55em {\raise .53ex \hbox{$\scriptscriptstyle |$}} }}
+\def\ZZ{\mathop{{\rm Z}\kern-.28em{\rm Z}}\nolimits}
+\def\semicolon{; }  %use in references, to avoid interference with fields
+\def\and{and}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% (3) macros needed for decoding the present reference formats, for use in
+% the (customizable) macros  \form[A-Z] in refmac.tex .
+
+\newtoks\lastname
+\newtoks\firstname
+\newtoks\au
+\newtoks\aut
+\newtoks\ti
+\newtoks\jr
+\newtoks\tit
+\newtoks\pb
+\newtoks\pub
+\newtoks\pl
+
+% First, the macros for decoding the author field.  The precise arrangement of 
+% author name(s) is left to customizable macros  \formfirstauthor,  
+% \formnextauthor, and \formlastauthor  specified in  refmac.tex : 
+
+\def\concat#1{\edef\audef{{#1}}\au=\audef}
+
+\newif\ifonesofar
+\def\decodeauthor#1, #2,#3;{\lastname={ #1}\firstname={#2}%
+\concat{\formfirstauthor}\onesofartrue%
+\def\next{#3}\ifx\next\empty\else\decodemoreauthor#3;\fi}
+\def\decodemoreauthor#1, #2,#3;{\lastname={#1}\firstname={#2}%
+\def\next{#3}
+\ifx\next\empty\let\formaut=\formlastauthor%
+\ifonesofar\ifx\formotherauthor\undefined\else\let\formaut=\formotherauthor%
+\fi\fi\concat{\the\au\formaut}%
+\else\onesofarfalse\concat{\the\au\formnextauthor}\decodemoreauthor#3;\fi}
+
+% Then, the decoding of the six kinds of references"
+
+\def\refB #1; #2; #3 (#4); #5; {\decodeauthor#1,;%
+   \ti={#2}\pb={#3}\pl={#4}\def\yr{#5}\formB}
+
+\def\refD #1; #2; #3; #4; {\decodeauthor#1,;%
+   \ti={#2}\pl={#3}\def\yr{#4}\formD}
+
+\def\refJ #1; #2; #3; #4; #5; #6; {\decodeauthor#1,;%
+    \ti={#2}\jr={#3}\def\vl{#4}\def\yr{#5}\def\pp{#6}\formJ}
+
+% the proceedings macro picks up standard proceedings from the file
+% \locbib proceed.tex, via the macro \lookupp .
+\def\lookupp#1{{\global\aut={\vrule height15pt width15pt depth0pt}%<- black mark
+\global\tit={{\bf the specified proceedings does not exist in our files}}%
+\xdef\edsop{}\global\pub={}\def#1{}\input \locbib proceed }}
+% The proceedings in the proceedings file are decoded with the help of the 
+% following  macros  \refproc  and  \decodeproc . This particular splitting
+% helps in the decoding of nonstandard proceedings (for \refQ).
+% Note that the local macros extracted thereby have names of at least
+% three characters, except for \yr , which will be used as in the other
+% reference types.
+\def\refproc #1(#2; #3; {\decodeproc#2; \xdef\yr{#3}}
+\def\decodeproc#1), #2 (ed#3.), #4 (#5); {%
+ \global\tit={#1}\global\aut={#2}\xdef\edsop{#3}\global\pub={#4}\global\pl={#5}}
+
+\def\refP #1; #2; #3; #4; {\lookupp{#3}\decodeauthor#1,;%
+	\ti={#2}\def\pp{#4}\formP}
+
+\def\refQ #1; #2; (#3; #4; #5; {\decodeproc#3; \decodeauthor#1,;%
+   \ti={#2}\def\yr{#4}\def\pp{#5}\formP}
+
+\def\refR #1; #2; #3; #4; {\decodeauthor#1,;%
+	 \ti={#2}\def\is{#3}\def\yr{#4}\formR}
+
+% The following is included to allow earlier formats (and should be discarded
+% eventually):
+\let\refBa\refB\let\refBb\refB\let\refBc\refB
+\let\refJa\refJ\let\refJb\refJ\let\refJc\refJ
+\let\refPa\refP\let\refPb\refP\let\refPc\refP
+\let\refQa\refQ\let\refQb\refQ\let\refQc\refQ
+\let\refRa\refR\let\refRb\refR\let\refRc\refR
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  (4)              REFERENCE FORMAT
+%
+%The above macros rely on the fact that each reference is of the FORM
+%
+%    %<authors><year_digits>[<letter>]
+%    [% <authority>]
+%    \ref<style> <author(s)>;
+%    <title>;
+%    <locator>
+%    [% <comments>]
+%
+%In particular, the various reference styles differ only in the <locator>; the
+%TeX macros rely on the <style> letter to indicate what to expect in <locator> .
+%They also require that every FIELD SEPARATOR (i.e., every semicolon) in the 
+%middle of a line be FOLLOWED BY A BLANK.
+%
+%There are, at present 6 styles, as in the following table:
+%
+%
+%<style> type                         <locator>
+%
+%   B    book                         <publisher-info>; <year>;
+%   D    dissertation                 <institution>; <year>;
+%   J    in journal                   <journal>; <volume>; <year>; <pages>;
+%   P    in standard proceedings      \<proceeding-macro>; <pages>;
+%   Q    in nonstandard proceedings   <proceedings>; <year>; <pages>;
+%   R    report                       <report-no_and_institution>; <year>;
+%
+%
+%Only for two of them does the <locator> have more than 2 fields.
+%
+%Here is a more detailed description of the various lines, followed by a
+%definition of all the terms <...> used here.
+%
+%************>  %<authors><year_digits>[<letter>]
+%The first line of a reference is its unique IDENTIFIER or HANDLE.
+%It consists of the percentsign, followed immediately (i.e., WITHOUT a 
+%separating blank) by the `name' of every author (without any diacritical 
+%marks and without any separating blanks), followed by the last two digits of 
+%the year of publication, optionally followed by one lower-case letter, to 
+%distinguish otherwise indistinguishable references. Further, `name' is usually 
+%the last name of the author, which may be followed by initials for otherwise 
+%indistinguishable authors. Also, the first letter of each `name' must be 
+%capitalized.
+%
+%Note that there are choices to be made here, and this is the major reason for
+%having someone be IT. For, the C programs all rely on the fact that each
+%reference has a unique identifier, and we couldn't come up with an efficient 
+%and foolproof way of deriving such an identifier by some rule from the 
+%reference, without reference to references already in the reference lists :-). 
+%
+%
+%************>  % <authority>
+%This optional second line starts with a percent sign AND A BLANK, followed by
+%the name of the person who thereby claims to have verified this reference (by
+%having looked it up). We hope that all those using these references will
+%contribute to their accuracy, at a minimum by making certain that all
+%references involving their work are correct and up-to-date.
+%
+%************>  % <comments>
+%This optional last line (of which there could be more than one) starts with a 
+%percent sign AND A BLANK, followed by anything of interest, such as key words 
+%or comments, EXCEPT that it should contain no semicolon, to avoid confusing 
+%search programs like  awk  which should be able to rely on the semicolons as 
+%the official field separators.
+%
+%************>  <author(s)> 
+%is of the form
+%   <author>[, <author>[, <author> ...]]
+%i.e., a list of items of the form <author>, separated by comma-and-blank.
+%
+%Further, <author> is of the form
+%   <author_last_name>, <author_initials>
+%with <author_initials> either initials separated by blanks, or more detailed
+%first-name information, depending on what is printed in the paper,
+%except that it is best to use full first-name for Chinese authors in any case.
+%Note that <author_last_name> is not permitted to contain commas! Sorry,
+%Jim Douglas_Jr.
+%
+% ************>  <title> 
+%The <title> of a book or dissertation has its words suitably capitalized, 
+%while the <title> of an article has only its first word capitalized, EXCEPT
+%for any words customarily capitalized, like proper names, or nouns in a 
+%GERMAN title, etc.  It would be helpful for some database searches if all
+%lines but the first began with three blanks (not tabs!).
+%
+%************>  <publisher-info>
+%The <publisher-info> is of the form
+%	<publisher-name> (<publisher-location>)
+%with <publisher-name> not permitted to contain parentheses nor to end with
+%a forced blank.
+%
+%************>  <journal>
+%The <journal> is either an explicit journal description in standard
+%abbreviation or is of the form: \<journal_macro> , with the definition of
+%\<journal_macro> to be found in the file  journal.tex . The <journal_macro>
+%usually consists of the first letters (capitalized) of the name of the journal.
+%
+%************>  <year>
+%The <year> is a four-digit number.
+%
+%************>  <pages>
+%The <pages> is of the form: <first_page>--<last_page>
+%
+%************>  \<proceedings_macro>
+%The \<proceedings_macro>  is defined in the file  proceed.tex . It 
+%provides the details of a particular proceedings. Its macro name tries to 
+%capture either the place or the topic of a standard proceedings, with CAPITAL 
+%roman numerals used to indicate a particular in a series of proceedings.
+%
+%************>  <proceedings>
+%We have chosen <proceedings> to be of the form 
+%(<title of proceedings>), <editor name[s]> (ed[s].), <publisher-info>
+% with <editor name> of the form 
+%     <editor_initials> <editor_last_name> 
+%Note, in particular, that the year of publication is not part of this
+%information, but has its own field. 
+%
+%For readability, its seems good to put the fields <author(s)> and <title> on
+%their own lines, while the rest of the fields might as well be consecutive.
+%
+%Since SEMICOLONs are used as field delimiters, any other semicolon needed 
+%(e.g., as part of a title) should be specified by  \semicolon .
+%
+%INCOMPLETE references are acceptable as long as missing information is
+%indicated by  xxx  (to satisfy the macros which take apart and re-assemble the
+%information).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% (5) record of changes to this file
+% updated 05jun04: moved this record to end of file; provided numbers to 
+%                  section headings
+% updated 05jul03: added \CPAM,\JMPA,\ZMP, \PIEEE
+% updated 17jan03: updated \SJCO, \MMNA, \JRAM; add \FCM
+% updated 07dec01: updated \SJSC
+% updated 18jan01: changed \AM to \AeM, made \AM = Applications of Mathematics
+%                  added \AUPOFRNM
+% updated 02mar00: kept the blank (assumed in front of \pub) out of \pub
+%                  for proceedings (this required corresponding insertion of 
+%                  such blank in two places in refmac.tex)
+% updated 30aug00: add \SJMAA
+% updated 19nov99: add \DCG
+% updated 18nov97:  change \jr to toks (also changed refmac.tex accordingly)
+% updated 01 may 97:  add \JCM
+% updated 15 nov 96:  add \MS
+% updated 06 aug 96:  add \rm to def of \CC
+% updated 30 apr 96:  add \AoNM, \DAN
+% updated 11 mar 96:  add \JFAA, \DMJ, \MaZ
+% updated 18 feb 96:  change \EJA to MR abbrev.
+% updated 19 nov 95:  add \MUSSR, \SMD
+% updated 12 jul 95:  add \EJA, \PLMS; precede lastname in formfirstauthor by a 
+%                     blank; add comment re publisher-info.  
+% updated 20 may 95: improve \concat (to avoid temporary writes), add \CMSCP
+% updated 05 may 95: enlarge \refB and \decodeproc to make available publisher
+%                    location, in \pl.
+% updated 03 may 95: add \formotherauthor to permit distinct treatment of
+%                    last author when there are just two authors.
+% updated 14 mar 95: change author-field and other decoding to avoid early
+%                    expansion of diacritical and another macros.
+% updated 03 feb 95: add \CMP
+% updated 28 jan 95: change \AA to \ApA , to avoid clash with plain TeX's \AA.
+% updated 04 nov 94: remove wrong guess  \IMJ, \LMJ; put in \JLMS; 
+%                    identify \JATA with \ATA; bring back \LAA;
+% updated 04 sep 94: add the format description (4) at end of file.
+% updated 02 sep 94: print a black mark for nonexisting proceedings.
+% updated 30 aug 94: AdM-->AiM, AdAM-->AiAM, AdCM and ACM -->AiCM;
+% updated 25 aug 94 (larry): add JAMSA. JAMP, MM, RMA 
+% updated 01 aug 94: make author field handling more flexible and drop the
+%                    a, b, c distinction 
+% updated 28 jun 94: drop final space on journal titles
+% updated 12 apr 94: correct \AAM
+% updated 25 feb 94: add \ACM  20nov03: could this have been AMC?
+% updated 4-17 jan 94: add \IJNME, relate TOG to ACMTG
+% updated 13 dec 93: add def. of \semicolon, to avoid trouble in searches
+%                    add \AdAM, \AdCM, \SJADM
+%             Replace \ed by \edsop to bring out singular/plural on ed(s).
+% updated 24 oct 93: add \ACHA =: Applied and Computational Harmonic Analysis
+% updated 30 dec 92: add period to \JMM
+% updated 23 nov 92: include the noncustomizable stuff of the reference macros
+% updated 14, 20 27 may 92: new journals
+% updated 15 apr 92: new journals
+% updated 15 mar 92: add \CGA, \CVGIP, \SJSC
+% updated 13-15 mar 92 (new journals); deleted a fake journal;  put all macros
+%        used in references (other than the customizable ones) into this file. 
+% updated 2 mar 92 (uniformity, one new journal) 
+% updated Nov.15, 91  (add various journals, correct spellings)
+
+% to do: clear up the following
+%\def\ZMAM{ZMAM}  what is it? used in %Bojanov74a %Bojanov76a
