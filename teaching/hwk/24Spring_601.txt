@@ -1,0 +1,9 @@
+MATH 601, Spring 2024 
+
+Homework Exercises from: 
+Schaum's Outline of Linear Algebra by S. Lipschutz and M. Lipson. 
+McGraw-Hill, 6th edition.
+
+Week 1:
+1.43, 1.44, 1.45, 1.49, 1.52, 1.53, 1.58
+2.38, 2.39, 2.43, 2.46, 2.52, 2.54, 2,56, 2.61, 2.67, 2.69, 2.73, 2.84
