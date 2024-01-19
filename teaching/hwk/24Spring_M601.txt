@@ -1,6 +1,6 @@
 MATH 601, Spring 2024 
 
-Homework Exercises from: 
+Homework exercises from: 
 Schaum's Outline of Linear Algebra by S. Lipschutz and M. Lipson. 
 McGraw-Hill, 6th edition.
 
