@@ -1,4 +1,4 @@
-MATH 680, Spring 2024
+swMATH 680, Spring 2024
 
 Homework exercises from:
 Mathematical Pictures at a Data Science Exhibition.
