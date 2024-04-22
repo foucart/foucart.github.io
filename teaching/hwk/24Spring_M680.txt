@@ -1,4 +1,4 @@
-swMATH 680, Spring 2024
+MATH 680, Spring 2024
 
 Homework exercises from:
 Mathematical Pictures at a Data Science Exhibition.
@@ -70,4 +70,16 @@ COLLECTED ASSIGNMENT #4: 25.2, 26.4, 9.3, 10.4, 10.5
 DUE ON FRI, APR 26TH IN MY MAILBOX
 *****
 
+Week 14: 
+Watch the following recorded lectures (both with passcodes Sc6=33!c)
+
+Monday April 22nd: Chapter 10
+https://tamu.zoom.us/rec/share/HSuG_-mbJkb1cXjehR4pSMVmAAcb2ujexYNxddZaSyVDsJ_cSUj_TTAFvalWk285.32R7AfwDPWrGAYcy?startTime=1713727213000 
+
+Wednesday April 24th: Chapters 11 and 12
+https://tamu.zoom.us/rec/share/HSuG_-mbJkb1cXjehR4pSMVmAAcb2ujexYNxddZaSyVDsJ_cSUj_TTAFvalWk285.32R7AfwDPWrGAYcy?startTime=1713730602000
+
+Friday April 26th: more about Compressive Sensing
+https://www.youtube.com/watch?v=x47dl2-jnVQ
+https://www.youtube.com/watch?v=g6CcrKGzdZE
 
