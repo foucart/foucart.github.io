@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  31 MAY 2024 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  8 JUN 2024 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -447,25 +447,25 @@ al Re-cov-ery\OT1/cmr/m/n/10.95 , Uni-ver-sity at Al-bany, 29 Mar 2023.
  []
 
 [7]
-Overfull \hbox (5.06918pt too wide) in paragraph at lines 580--582
+Overfull \hbox (5.06918pt too wide) in paragraph at lines 582--584
 []\OT1/cmr/m/sl/10.95 Restricted isom-e-try prop-er-ties and their role in com-
 pres-sive sens-ing\OT1/cmr/m/n/10.95 , On-line work-shop `High-dimensional
  []
 
 [8]
-Overfull \hbox (3.3659pt too wide) in paragraph at lines 624--627
+Overfull \hbox (3.3659pt too wide) in paragraph at lines 626--629
 []\OT1/cmr/m/sl/10.95 Assimilating data to op-ti-mally com-pute quan-ti-ties of
  in-ter-est\OT1/cmr/m/n/10.95 , Min-isym-po-sium `Sparsity-Based []
  []
 
 [9]
-Overfull \hbox (6.30612pt too wide) in paragraph at lines 691--693
+Overfull \hbox (6.30612pt too wide) in paragraph at lines 693--695
 []\OT1/cmr/m/sl/10.95 Stability and ro-bust-ness of weak or-thog-o-nal match-in
 g pur-suits. \OT1/cmr/m/n/10.95 Spe-cial ses-sion `Mod-els and []
  []
 
 
-Overfull \hbox (2.34372pt too wide) in paragraph at lines 705--707
+Overfull \hbox (2.34372pt too wide) in paragraph at lines 707--709
 []\OT1/cmr/m/sl/10.95 The Gelfand widths of $\OML/cmm/m/it/10.95 `[]$\OT1/cmr/m
 /sl/10.95 -balls for $\OT1/cmr/m/n/10.95 0 \OML/cmm/m/it/10.95 < p \OMS/cmsy/m/
 n/10.95 ^^T \OT1/cmr/m/n/10.95 1$\OT1/cmr/m/sl/10.95 . \OT1/cmr/m/n/10.95 Min-i
@@ -473,19 +473,19 @@ sym-po-sium `Sparse ap-prox-i-ma-tion', 7th []
  []
 
 
-Overfull \hbox (3.44691pt too wide) in paragraph at lines 707--709
+Overfull \hbox (3.44691pt too wide) in paragraph at lines 709--711
 []\OT1/cmr/m/sl/10.95 Best suf-fi-cient con-di-tions for sparse re-cov-ery. \OT
 1/cmr/m/n/10.95 Min-isym-po-sium `Com-pres-sive Sens-ing', 13th []
  []
 
 [10] [11]
-Overfull \hbox (1.85573pt too wide) in paragraph at lines 799--800
+Overfull \hbox (1.85573pt too wide) in paragraph at lines 801--802
 []\OT1/cmr/m/sl/10.95 Compressive Sens-ing and the Hard Thresh-old-ing Pur-suit
  al-go-rithm.  \OT1/cmr/m/n/10.95 Uni-ver-sity of Mary-land, 1 Dec 2010. 
  []
 
 
-Overfull \hbox (1.87189pt too wide) in paragraph at lines 811--812
+Overfull \hbox (1.87189pt too wide) in paragraph at lines 813--814
 []\OT1/cmr/m/sl/10.95 Reconstruction parci-monieuse par min-imi-sa-tion $\OML/c
 mm/m/it/10.95 `[]$ \OT1/cmr/m/sl/10.95 avec $\OT1/cmr/m/n/10.95 0 \OML/cmm/m/it
 /10.95 < q \OMS/cmsy/m/n/10.95 ^^T \OT1/cmr/m/n/10.95 1$\OT1/cmr/m/sl/10.95 . \
@@ -493,33 +493,33 @@ OT1/cmr/m/n/10.95 IN-RIA Rennes, France, 23 Jun 2009.
  []
 
 [12]
-Overfull \hbox (0.57181pt too wide) in paragraph at lines 858--862
+Overfull \hbox (0.57181pt too wide) in paragraph at lines 860--864
 \OT1/cmr/m/n/10.95 Schroedinger In-ter-na-tional In-sti-tute for Math-e-mat-ics
  and Physics, Vi-enna, Aus-tria, 19 Apr-28 May 2021.
  []
 
 
-Overfull \hbox (2.651pt too wide) in paragraph at lines 881--883
+Overfull \hbox (2.651pt too wide) in paragraph at lines 883--885
 []\OT1/cmr/m/n/10.95 2nd In-ter-na-tional Work-shop on Com-pressed Sens-ing Ap-
 plied to Radar, Bonn, Ger-many, 17-19 Sep 2013. 
  []
 
 [13]
-Overfull \hbox (2.09209pt too wide) in paragraph at lines 903--904
+Overfull \hbox (2.09209pt too wide) in paragraph at lines 905--906
 []\OT1/cmr/m/n/10.95 Workshop on `Non-lin-ear Ap-prox-i-ma-tion Tech-niques Us-
 ing $\OML/cmm/m/it/10.95 L[]$\OT1/cmr/m/n/10.95 ', Texas A&M Uni-ver-sity, 16-1
 8 May 2008. 
  []
 
 [14] [15]
-Overfull \hbox (0.9786pt too wide) in paragraph at lines 1144--1174
+Overfull \hbox (0.9786pt too wide) in paragraph at lines 1146--1176
 [][] 
  []
 
 [16]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1208.
+(hyperref)                than one, level fixed on input line 1210.
 
 [17] (./Vita.aux)
 Package rerunfilecheck Info: File `Vita.out' has not changed.
@@ -547,7 +547,7 @@ l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Vita.pdf (17 pages, 236028 bytes).
+Output written on Vita.pdf (17 pages, 235910 bytes).
 PDF statistics:
  323 PDF objects out of 1000 (max. 8388607)
  273 compressed objects within 3 object streams
