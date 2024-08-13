@@ -1,0 +1,22 @@
+MATH 601, Fall 2024 
+
+
+|----------------------|
+|*****   Part 1   *****|
+|----------------------|
+
+Homework exercises from: 
+Schaum's Outline of Complex Variables by M. R. Spiegel, S. Lipschutz, J. J. Schiller, and D. Spellman.
+McGraw-Hill, 2nd edition.
+
+Week 1:
+TBD
+
+
+|----------------------|
+|*****   Part 2   *****|
+|----------------------|
+
+Homework exercises from: 
+Schaum's Outline of Linear Algebra by S. Lipschutz and M. Lipson. 
+McGraw-Hill, 6th edition.
