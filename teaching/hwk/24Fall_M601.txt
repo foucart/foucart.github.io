@@ -43,3 +43,6 @@ Fall Break, no homework
 Homework exercises from: 
 Schaum's Outline of Linear Algebra by S. Lipschutz and M. Lipson. 
 McGraw-Hill, 6th edition.
+
+Week 9:
+1.43, 1.44, 1.45, 1.49, 1.52, 1.53, 1.58
