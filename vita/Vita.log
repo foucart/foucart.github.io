@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  23 NOV 2024 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  14 DEC 2024 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -478,14 +478,20 @@ Overfull \hbox (3.44691pt too wide) in paragraph at lines 721--723
 1/cmr/m/n/10.95 Min-isym-po-sium `Com-pres-sive Sens-ing', 13th []
  []
 
-[10] [11]
-Overfull \hbox (1.85573pt too wide) in paragraph at lines 813--814
+[10]
+Overfull \hbox (1.78413pt too wide) in paragraph at lines 754--756
+[]\OT1/cmr/m/sl/10.95 TBA\OT1/cmr/m/n/10.95 . Ap-plied Math-e-mat-ics Sem-i-nar
+, Cen-tre de Recherches Math^^Sematiques (CRM), Montr^^Seal, Canada,
+ []
+
+[11]
+Overfull \hbox (1.85573pt too wide) in paragraph at lines 815--816
 []\OT1/cmr/m/sl/10.95 Compressive Sens-ing and the Hard Thresh-old-ing Pur-suit
  al-go-rithm.  \OT1/cmr/m/n/10.95 Uni-ver-sity of Mary-land, 1 Dec 2010. 
  []
 
 [12]
-Overfull \hbox (1.87189pt too wide) in paragraph at lines 825--826
+Overfull \hbox (1.87189pt too wide) in paragraph at lines 827--828
 []\OT1/cmr/m/sl/10.95 Reconstruction parci-monieuse par min-imi-sa-tion $\OML/c
 mm/m/it/10.95 `[]$ \OT1/cmr/m/sl/10.95 avec $\OT1/cmr/m/n/10.95 0 \OML/cmm/m/it
 /10.95 < q \OMS/cmsy/m/n/10.95 ^^T \OT1/cmr/m/n/10.95 1$\OT1/cmr/m/sl/10.95 . \
@@ -493,33 +499,33 @@ OT1/cmr/m/n/10.95 IN-RIA Rennes, France, 23 Jun 2009.
  []
 
 
-Overfull \hbox (0.57181pt too wide) in paragraph at lines 875--879
+Overfull \hbox (0.57181pt too wide) in paragraph at lines 877--881
 \OT1/cmr/m/n/10.95 Schroedinger In-ter-na-tional In-sti-tute for Math-e-mat-ics
  and Physics, Vi-enna, Aus-tria, 19 Apr-28 May 2021.
  []
 
-
-Overfull \hbox (2.651pt too wide) in paragraph at lines 898--900
+[13]
+Overfull \hbox (2.651pt too wide) in paragraph at lines 900--902
 []\OT1/cmr/m/n/10.95 2nd In-ter-na-tional Work-shop on Com-pressed Sens-ing Ap-
 plied to Radar, Bonn, Ger-many, 17-19 Sep 2013. 
  []
 
-[13]
-Overfull \hbox (2.09209pt too wide) in paragraph at lines 920--921
+
+Overfull \hbox (2.09209pt too wide) in paragraph at lines 922--923
 []\OT1/cmr/m/n/10.95 Workshop on `Non-lin-ear Ap-prox-i-ma-tion Tech-niques Us-
 ing $\OML/cmm/m/it/10.95 L[]$\OT1/cmr/m/n/10.95 ', Texas A&M Uni-ver-sity, 16-1
 8 May 2008. 
  []
 
 [14] [15]
-Overfull \hbox (0.3703pt too wide) in paragraph at lines 1165--1190
+Overfull \hbox (0.3703pt too wide) in paragraph at lines 1167--1186
 [][] 
  []
 
 [16]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1229.
+(hyperref)                than one, level fixed on input line 1231.
 
 [17] (./Vita.aux)
 Package rerunfilecheck Info: File `Vita.out' has not changed.
@@ -547,7 +553,7 @@ l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Vita.pdf (17 pages, 237413 bytes).
+Output written on Vita.pdf (17 pages, 237429 bytes).
 PDF statistics:
  323 PDF objects out of 1000 (max. 8388607)
  273 compressed objects within 3 object streams
