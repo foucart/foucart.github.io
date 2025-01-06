@@ -1,0 +1,10 @@
+MATH 680, Spring 2025
+
+Homework exercises from:
+Mathematical Pictures at a Data Science Exhibition.
+Cambridge University Press.
+
+Week 1:
+1.1, 1.2, 1.4
+B.1, B.2
+
