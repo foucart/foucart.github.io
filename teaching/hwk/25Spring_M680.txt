@@ -46,7 +46,7 @@ Week 9:
 20.1, 20.2, 20.3
 
 *****
-COLLECTED ASSIGNMENT #2: 9.2, 10.1, 19.3, 20.2, 20.4
+COLLECTED ASSIGNMENT #3: 9.2, 10.1, 19.3, 20.2, 20.4
 DUE on WED, MAR 26
 *****
 
@@ -55,3 +55,10 @@ Week 10:
 
 Week 11:
 24.1, 24.3, 24.4
+
+Week 12:
+E.2, E.3, E.4
+
+****
+COLLECTED ASSIGNMENT #4: 21.4, 22.2, 24.5, 25.1, 26.1 
+DUE on FRI, APR 18
