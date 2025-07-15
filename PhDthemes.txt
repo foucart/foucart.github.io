@@ -1,0 +1,23 @@
+For doctoral students interested in a PhD under my guidance, here is a list of research topics that I will supervise. Approximation Theory is a common thread throughout, but specific topics require to know/learn other subjects.  
+
+1. MINIMAL PROJECTIONS
+(the most theoretical topic)
+subjects: Functional Analysis, Frame Theory
+sources: my (upcoming) survey [2], my journal publications [24,32,49]
+
+2. APPROXIMATION THEORY AND SEMIDEFINITE PROGRAMMING
+(the most computational topic)
+subjects: Numerical Analysis, Software Development
+sources: my software BASC, my journal publications [22,54]
+
+3. MODERN OPTIMAL RECOVERY
+(the most in-vogue topic)
+subjects: Optimization, Data Science  
+sources: my journal publications [47,51,52,55]
+
+4. DETERMINISTIC COMPRESSIVE SENSING
+(the most explorative topic)
+subjects: Derandomization, Combinatorics
+sources: my survey [1], my book chapter [12]
+
+To obtain more information, you are welcome to come and talk to me. To start research with me, besides a strong academic record, you will also be expected to have taken at least one of my courses.
