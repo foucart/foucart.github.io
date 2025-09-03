@@ -1,0 +1,11 @@
+MATH 651, Fall 2025
+
+Homework exercises from lecture notes and from:
+Convex Optimization (Boyd and Vandenberghe).
+Cambridge University Press.
+
+Week 1:
+from lecture notes
+
+Week 2:
+from textbook: 9.2. 9.6, 9.7, 9.8
