@@ -1,0 +1,12 @@
+MATH 689, Fall 2025
+
+Homework exercises from:
+A Mathematical Introduction to Compressive Sensing.
+Birkhauser.
+
+Week 1:
+--
+
+Week 2:
+2.1, 2.2, 2.4
+
