@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  19 SEP 2025 14:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  23 SEP 2025 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,14 +517,14 @@ ing $\OML/cmm/m/it/10.95 L[]$\OT1/cmr/m/n/10.95 ', Texas A&M Uni-ver-sity, 16-1
  []
 
 [15] [16]
-Overfull \hbox (0.9786pt too wide) in paragraph at lines 1210--1255
+Overfull \hbox (0.9786pt too wide) in paragraph at lines 1211--1256
 [][] 
  []
 
 [17]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1279.
+(hyperref)                than one, level fixed on input line 1280.
 
 [18] (./Vita.aux)
 Package rerunfilecheck Info: File `Vita.out' has not changed.
