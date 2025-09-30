@@ -24,3 +24,6 @@ from lecture notes
 
 Week 6:
 from textbook: 2.2, 2.4, 2.5, 2.7, 2.10, 2.11, 2.23, 2.24
+
+ASSIGNMENT #2 DISTRIBUTED IN CLASS (October 1)
+DUE WEDNESDAY, OCTOBER 8
