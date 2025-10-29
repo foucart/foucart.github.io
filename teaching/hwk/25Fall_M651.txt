@@ -39,3 +39,6 @@ from lecture notes
 
 ASSIGNMENT #3 DISTRIBUTED IN CLASS (October 22)
 DUE WEDNESDAY, OCTOBER 29
+
+Week 10:
+from lecture notes
