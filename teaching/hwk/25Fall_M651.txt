@@ -42,3 +42,6 @@ DUE WEDNESDAY, OCTOBER 29
 
 Week 10:
 from lecture notes
+
+Week 11:
+from textbook: 10.2, 10.4, 10.5, 10.15(a)
