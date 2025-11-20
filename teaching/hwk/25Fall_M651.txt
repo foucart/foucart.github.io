@@ -51,3 +51,9 @@ from textbook: 11.2, 11.5, 11.6, 11.10
 
 ASSIGNMENT #4 DISTRIBUTED in CLASS (November 10)
 DUE WEDNESDAY, NOVEMBER 19
+
+Week 13:
+from textbook: 6.4, 6.6, 6.8
+
+Week 14 (Thanksgiving):
+--
