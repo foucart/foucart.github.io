@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  5 MAY 2026 22:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.28)  19 MAY 2026 01:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,14 +527,8 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 1304.
 
 [18] (./Vita.aux)
-
-Package rerunfilecheck Warning: File `Vita.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Vita.out':
-(rerunfilecheck)             Before: 6C8167C834E969F10057B2F635658039;5776
-(rerunfilecheck)             After:  9786761F9AF3086E1468DC0D87CD9353;5786.
+Package rerunfilecheck Info: File `Vita.out' has not changed.
+(rerunfilecheck)             Checksum: 9786761F9AF3086E1468DC0D87CD9353;5786.
  ) 
 Here is how much of TeX's memory you used:
  10961 strings out of 476025
@@ -559,7 +553,7 @@ l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 exlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texl
 ive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Vita.pdf (18 pages, 250142 bytes).
+Output written on Vita.pdf (18 pages, 250141 bytes).
 PDF statistics:
  332 PDF objects out of 1000 (max. 8388607)
  279 compressed objects within 3 object streams
