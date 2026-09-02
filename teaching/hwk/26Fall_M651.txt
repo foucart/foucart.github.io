@@ -6,3 +6,6 @@ Cambridge University Press.
 
 Week 1:
 from lecture notes
+
+Week 2:
+from lecture notes
